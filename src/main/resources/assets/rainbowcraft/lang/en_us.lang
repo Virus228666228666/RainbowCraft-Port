@@ -1,0 +1,27 @@
+itemGroup.tabRainbowCraft=RainbowCraft
+
+item.rainbowSeeds.name=Rainbow Seeds
+item.rainbowStick.name=Rainbow Stick
+item.rainbowShards.name=Rainbow Shards
+item.rainbowDiamond.name=Rainbow Diamond
+item.rainbowPickaxe.name=Rainbow Pickaxe
+item.rainbowAxe.name=Rainbow Axe
+item.rainbowSword.name=Rainbow Sword
+item.rainbowShovel.name=Rainbow Shovel
+item.rainbowHoe.name=Rainbow Hoe
+item.rainbowHelmet.name=Rainbow Helmet
+item.rainbowChestplate.name=Rainbow Chestplate
+item.rainbowLegs.name=Rainbow Leggings
+item.rainbowBoots.name=Rainbow Boots
+tile.rainbow.name=Rainbow Block
+tile.rainbowLeaves.name=Rainbow Leaves
+tile.rainbowSapling.name=Rainbow Sapling
+tile.rainbowPlanks.name=Rainbow Planks
+tile.rainbowLog.name=Rainbow Log
+tile.rainbowTable.name=Rainbow Crafting Table
+tile.cloud.name=Cloud
+tile.rainbowStair.name=Rainbow Stairs
+tile.rainbowCrops.name=Rainbow Plant
+tile.rainbowSpawner.name=Rainbow Spawner
+tile.rainbowCobblestone.name=Rainbow Cobblestone
+tile.rainbowHouse.name=Rainbow House

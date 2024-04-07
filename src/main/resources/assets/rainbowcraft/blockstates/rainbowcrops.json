@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cross"
+  },
+  "variants": {
+    "age": { "0": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_0" }},
+      "1": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_1" }},
+      "2": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_2" }},
+      "3": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_3" }},
+      "4": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_4" }},
+      "5": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_5" }},
+      "6": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_6" }},
+      "7": { "textures": { "cross": "rainbowcraft:blocks/rainbowcrops_stage_7" }}
+    }
+  }
+}

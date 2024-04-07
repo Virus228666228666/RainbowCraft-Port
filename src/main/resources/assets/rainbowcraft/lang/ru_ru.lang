@@ -1,0 +1,27 @@
+itemGroup.tabRainbowCraft=RainbowCraft
+
+item.rainbowSeeds.name=Радужные семена
+item.rainbowStick.name=Радужная палка
+item.rainbowShards.name=Радужные осколки
+item.rainbowDiamond.name=Радужный алмаз
+item.rainbowPickaxe.name=Радужная кирка
+item.rainbowAxe.name=Радужный топор
+item.rainbowSword.name=Радужный меч
+item.rainbowShovel.name=Радужная лопата
+item.rainbowHoe.name=Радужная мотыга
+item.rainbowHelmet.name=Радужный шлем
+item.rainbowChestplate.name=Радужный нагрудник
+item.rainbowLegs.name=Радужные штаны
+item.rainbowBoots.name=Радужные ботинки
+tile.rainbow.name=Радужный блок
+tile.rainbowLeaves.name=Радужная листва
+tile.rainbowSapling.name=Радужный саженец
+tile.rainbowPlanks.name=Радужные доски
+tile.rainbowLog.name=Радужное бревно
+tile.rainbowTable.name=Радужный верстак
+tile.cloud.name=Облако
+tile.rainbowStair.name=Радужные лестницы
+tile.rainbowCrops.name=Радужное растение
+tile.rainbowSpawner.name=Радужный спавнер
+tile.rainbowCobblestone.name=Радужный булыжник
+tile.rainbowHouse.name=Радужный дом

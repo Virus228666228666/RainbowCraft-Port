@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "rainbowcraft:blocks/rainbowplanks",
+    "up": "rainbowcraft:blocks/rainbowtabletop",
+    "north": "rainbowcraft:blocks/rainbowtablefront",
+    "east": "rainbowcraft:blocks/rainbowtableside",
+    "south": "rainbowcraft:blocks/rainbowtableside",
+    "west": "rainbowcraft:blocks/rainbowtablefront",
+    "particle": "rainbowcraft:blocks/rainbowtableside"
+  }
+}

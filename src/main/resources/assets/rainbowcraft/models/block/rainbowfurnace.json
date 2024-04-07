@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "rainbowcraft:blocks/rainbowfurnacetop",
+    "up": "rainbowcraft:blocks/rainbowfurnacetop",
+    "north": "rainbowcraft:blocks/rainbowfurnacefront",
+    "east": "rainbowcraft:blocks/rainbowfurnaceside",
+    "south": "rainbowcraft:blocks/rainbowfurnaceside",
+    "west": "rainbowcraft:blocks/rainbowfurnaceside",
+    "particle": "rainbowcraft:blocks/rainbowfurnacefront"
+  }
+}
