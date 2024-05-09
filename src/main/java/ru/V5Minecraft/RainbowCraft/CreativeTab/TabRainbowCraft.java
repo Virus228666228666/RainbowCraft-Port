@@ -49,6 +49,8 @@ public class TabRainbowCraft extends CreativeTabs {
         items.add(new ItemStack(RegisterItems.rainbowLegs));
         items.add(new ItemStack(RegisterItems.rainbowBoots));
 
+        items.add(new ItemStack(RegisterBlocks.BlockRainbowFurnace));
+
         super.displayAllRelevantItems(items);
     }
 }

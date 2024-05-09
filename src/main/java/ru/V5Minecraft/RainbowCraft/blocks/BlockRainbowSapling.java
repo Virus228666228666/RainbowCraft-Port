@@ -1,8 +1,7 @@
 package ru.V5Minecraft.RainbowCraft.blocks;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockBush;
-import net.minecraft.block.IGrowable;
+import net.minecraft.block.BlockSapling;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
@@ -13,7 +12,7 @@ import net.minecraft.world.World;
 
 import java.util.Random;
 
-public class BlockRainbowSapling extends BlockBush implements IGrowable {
+public class BlockRainbowSapling extends BlockSapling {
    public BlockRainbowSapling(String name) {
       this.setUnlocalizedName(name);
       this.setRegistryName(name);
@@ -35,26 +34,26 @@ public class BlockRainbowSapling extends BlockBush implements IGrowable {
       int x = pos.getX();
       int y = pos.getY();
       int z = pos.getZ();
-      world.setBlockState(new BlockPos(x + 0, y + 0, z + 0), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 1, z + 0), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 2, z + 0), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 3, z + 0), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
+      world.setBlockState(new BlockPos(x, y, z), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 1, z), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 2, z), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 3, z), Block.getBlockFromName("rainbowcraft:rainbowlog").getDefaultState());
 
       world.setBlockState(new BlockPos(x - 1, y + 1, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 1, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 1, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 1, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x - 1, y + 1, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 1, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 1, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 1, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 1, z - 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x - 1, y + 1, z - 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
       world.setBlockState(new BlockPos(x - 1, y + 2, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 2, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 2, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 2, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x - 1, y + 2, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 2, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 2, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 2, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x + 1, y + 2, z - 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x - 1, y + 2, z - 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
@@ -105,18 +104,18 @@ public class BlockRainbowSapling extends BlockBush implements IGrowable {
       world.setBlockState(new BlockPos(x - 1, y + 1, z + 2), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
       world.setBlockState(new BlockPos(x - 0, y + 1, z + 2), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
-      world.setBlockState(new BlockPos(x + 0, y + 4, z + 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 1, y + 3, z + 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x - 1, y + 3, z + 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 4, z), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x + 1, y + 3, z), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x - 1, y + 3, z), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
-      world.setBlockState(new BlockPos(x + 0, y + 3, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 3, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 3, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 3, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
-      world.setBlockState(new BlockPos(x + 0, y + 4, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x + 0, y + 4, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 4, z + 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x, y + 4, z - 1), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
 
-      world.setBlockState(new BlockPos(x + 1, y + 4, z + 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
-      world.setBlockState(new BlockPos(x - 1, y + 4, z + 0), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x + 1, y + 4, z), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
+      world.setBlockState(new BlockPos(x - 1, y + 4, z), Block.getBlockFromName("rainbowcraft:rainbowleaves").getDefaultState());
    }
 
    @Override

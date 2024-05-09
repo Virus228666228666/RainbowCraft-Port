@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    " DI",
+    " D "
+  ],
+  "key": {
+    "I": {
+      "item": "rainbowcraft:rainbowdiamond"
+    },
+    "D": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rainbowcraft:rainbowaxe"
+  }
+}

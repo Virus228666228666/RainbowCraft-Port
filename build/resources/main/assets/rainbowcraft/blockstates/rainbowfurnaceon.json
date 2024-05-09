@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "rainbowcraft:rainbowfurnaceon" },
+    "facing=south": { "model": "rainbowcraft:rainbowfurnaceon", "y": 180 },
+    "facing=west":  { "model": "rainbowcraft:rainbowfurnaceon", "y": 270 },
+    "facing=east":  { "model": "rainbowcraft:rainbowfurnaceon", "y": 90 }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " I ",
+    "   "
+  ],
+  "key": {
+    "I": {
+      "item": "rainbowcraft:rainbowblock"
+    }
+  },
+  "result": {
+    "item": "rainbowcraft:rainbowdiamond",
+    "count": 9
+  }
+}

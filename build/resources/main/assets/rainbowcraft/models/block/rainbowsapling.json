@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rainbowcraft:blocks/rainbowsapling",
+    "particle": "rainbowcraft:blocks/rainbowsapling"
+  }
+}

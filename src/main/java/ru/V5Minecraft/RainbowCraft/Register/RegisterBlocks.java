@@ -23,6 +23,8 @@ public class RegisterBlocks {
     public static Block BlockRainbowCraftingTable = new BlockRainbowCraftingTable("rainbowTable");
     public static Block BlockRainbowCobblestone = new BlockRainbowCobblestone("rainbowCobblestone");
     public static Block BlockRainbowHouse = new BlockRainbowHouse("rainbowHouse");
+    public static Block BlockRainbowFurnace = new BlockRainbowFurnace("rainbowFurnace", false);
+    public static Block BlockRainbowFurnaceOn = new BlockRainbowFurnace("rainbowFurnaceOn", true);
 
     public static void register() {
         setRegister(BlockRainbow);
@@ -37,6 +39,8 @@ public class RegisterBlocks {
         setRegister(BlockRainbowCraftingTable);
         setRegister(BlockRainbowCobblestone);
         setRegister(BlockRainbowHouse);
+        setRegister(BlockRainbowFurnace);
+        setRegister(BlockRainbowFurnaceOn);
     }
 
     @SideOnly(Side.CLIENT)
@@ -53,6 +57,8 @@ public class RegisterBlocks {
         setRender(BlockRainbowCraftingTable);
         setRender(BlockRainbowCobblestone);
         setRender(BlockRainbowHouse);
+        setRender(BlockRainbowFurnace);
+        setRender(BlockRainbowFurnaceOn);
     }
 
     private static void setRegister(Block block) {
