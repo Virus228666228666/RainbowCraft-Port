@@ -1,0 +1,39 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "rainbowcraft:rainbowdecorativeblock.obj"
+  },
+  "variants": {
+    "normal": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj"
+    },
+    "facing=north": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj"
+    },
+    "facing=east": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "rainbowcraft:rainbowdecorativeblock.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

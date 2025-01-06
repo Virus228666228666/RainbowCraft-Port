@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "rainbowcraft:blocks/rainbowfurnacetop",
+    "front": "rainbowcraft:blocks/rainbowfurnacefrontoff",
+    "side": "rainbowcraft:blocks/rainbowfurnaceside"
+  }
+}

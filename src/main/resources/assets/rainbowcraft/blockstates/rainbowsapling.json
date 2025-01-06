@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "stage=0,type=oak": { "model": "rainbowcraft:rainbowsapling" },
+    "stage=1,type=oak": { "model": "rainbowcraft:rainbowsapling" }
+  }
+}
